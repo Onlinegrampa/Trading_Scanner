@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1774078005841",
+    "timestamp": "2026-03-21T07:26:45.841Z",
+    "ticker": "BIAF",
+    "direction": "LONG",
+    "entryPrice": 2.89,
+    "exitPrice": 5.65,
+    "shares": 2500,
+    "setupType": "Gap & Go",
+    "scannerSource": "Gap Scanner",
+    "notes": "",
+    "pnlDollar": 6900.000000000001,
+    "pnlPercent": 95.50173010380624,
+    "rMultiple": null,
+    "stopPrice": null,
+    "float": 4498709
+  }
+]

@@ -1,0 +1,1 @@
+id,timestamp,ticker,source,direction,price,volume,floatShares,exchange,gapPercent,changeFromOpen,qualityScore,rank,changePercent,distanceFromHigh,highOfDay,triggerType,vwap,aboveVWAP,dailyGrade,ema200Dist,emaArrow,stockType,rsi2,outsideBollinger,candlePattern,avgVolume,relativeVolume,atrPct,rsvsSPY,convictionScore,newsType,newsStrength,hasS3

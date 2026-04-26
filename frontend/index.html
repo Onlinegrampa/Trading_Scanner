@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCARLET TERMINAL — Trading Terminal</title>
+</head>
+<body>
+
+<!-- ── Loading screen ────────────────────────────────────────── -->
+<div id="loading">
+  <div class="spinner"></div>
+  <div class="loading-text">INITIALIZING SCARLET TERMINAL...</div>
+</div>
+
+<!-- ── Toast notification ────────────────────────────────────── -->
+<div class="toast" id="toast"></div>
+
+<!-- ── Main app ───────────────────────────────────────────────── -->
+<div class="app" id="app" style="display:none">
+
+  <!-- ── Top bar ──────────────────────────────────────────────── -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="status-dot" id="statusDot"></div>
+      <div class="logo">SCARLET TERMINAL <span>/ POLYGON.IO</span></div>
+    </div>
+    <div class="topbar-right">
+      <div class="stat-item">
+        <span class="stat-label">Last Update</span>
+        <span class="stat-value" id="lastUpdate">—</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Scan Time</span>
+        <span class="stat-value" id="scanTime">—</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">API Calls</span>
+        <span class="stat-value" id="apiCalls">—</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Tickers</span>
+        <span class="stat-value" id="tickerCount">—</span>
+      </div>
+      <div class="stat-item header-pnl-wrap" id="headerPnlWrap" style="display:none">
+        <span class="stat-label">TODAY P&L</span>
+        <span class="header-pnl-val pnl-zero" id="headerPnlVal">$0.00</span>
+      </div>
+      <button class="alert-btn" id="calcBtn" title="Position Size Calculator">[CALC]</button>
+      <span class="schwab-sync-badge" id="schwabSyncBadge" title="Schwab auto-sync active">SCHWAB</span>
+      <button class="alert-btn" id="checklistBtn" title="Daily Pre-Market Checklist">
+        [CHECKLIST]<span class="cl-size-badge" id="clSizeBadge" style="display:none"></span>
+      </button>
+      <button class="alert-btn" id="pauseBtn" title="Pause / resume live data refresh">
+        <span id="pauseIcon">||</span><span id="pauseBtnLabel">LIVE</span>
+      </button>
+      <button class="alert-btn" id="muteBtn" title="Toggle audio/notification alerts">
+        <span class="bell">🔔</span><span id="muteBtnLabel">ALERTS ON</span>
+      </button>
+      <div class="refresh-ring" title="Next refresh">
+        <svg width="28" height="28" viewBox="0 0 28 28">
+          <circle cx="14" cy="14" r="11" />
+          <circle class="progress" id="progressCircle" cx="14" cy="14" r="11"
+            stroke-dasharray="69.12" stroke-dashoffset="0" />
+        </svg>
+        <div class="count" id="refreshCount">30</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Tabs ─────────────────────────────────────────────────── -->
+  <div class="tabs" id="tabBar">
+    <button class="tab active" data-panel="gap">1 GAP <span class="badge" id="tabGapCount">0</span></button>
+    <button class="tab" data-panel="hod-momo">2 HOD MOMO <span class="badge" id="tabHodCount">0</span></button>
+    <button class="tab" data-panel="pillar">3 5-PILLAR <span class="badge" id="tabPillarCount">0</span></button>
+    <button class="tab" data-panel="penny">4 PENNY <span class="badge" id="tabPennyCount">0</span></button>
+    <button class="tab" data-panel="top-lists">5 TOP LISTS</button>
+    <button class="tab" data-panel="earnings">6 EARNINGS <span class="badge" id="tabEarningsCount">0</span></button>
+    <button class="tab" data-panel="volatility">7 VOL HUNTER <span class="badge" id="tabVolCount">0</span></button>
+    <button class="tab" data-panel="momentum">8 MOMENTUM <span class="badge" id="tabMomCount">0</span></button>
+    <button class="tab" data-panel="reversal">9 REVERSALS <span class="badge" id="tabRevCount">0</span></button>
+    <button class="tab" data-panel="news">10 NEWS <span class="badge" id="tabNewsCount">0</span></button>
+    <button class="tab" data-panel="mike">11 LARGE CAPS <span class="badge" id="tabMikeCount">0</span></button>
+    <button class="tab" data-panel="journal">12 JOURNAL</button>
+    <button class="tab" data-panel="entry-guide">13 ENTRY GUIDE</button>
+    <button class="tab" data-panel="history">14 HISTORY <span class="badge" id="tabHistoryCount">0</span></button>
+    <button class="tab" data-panel="settings">15 SETTINGS</button>
+  </div>
+
+  <!-- ── Pre-market reminder ───────────────────────────────────── -->
+  <div class="cl-reminder" id="clReminder">
+    [!] PRE-MARKET CHECKLIST NOT COMPLETED — <a href="#" id="clReminderLink" style="color:var(--yellow);text-decoration:underline">FILL IT OUT NOW</a>
+  </div>
+
+  <!-- ── Alert log ─────────────────────────────────────────────── -->
+  <div class="alert-log" id="alertLog" style="display:none">
+    <div class="alert-log-header" id="alertLogHeader">
+      <span>ALERTS <span class="al-count" id="alertCount">0</span></span>
+      <span style="color:var(--text-muted);font-size:9px" id="alertLogToggleHint">CLICK TO COLLAPSE</span>
+    </div>
+    <div class="alert-log-list" id="alertLogList"></div>
+  </div>
+
+  <!-- ── Content ───────────────────────────────────────────────── -->
+  <div class="content">
+    <!-- Scan meta -->
+    <div class="meta-strip" id="metaStrip" style="display:none">
+      <span>TOTAL SCANNED: <span class="v" id="metaTotal">—</span></span>
+      <span>FILTERED: <span class="v" id="metaFiltered">—</span></span>
+      <span>SCAN DURATION: <span class="v" id="metaDuration">—</span></span>
+      <span>REFRESH: <span class="v">30s</span></span>
+      <span style="margin-left:auto;color:var(--yellow)">* Yellow float = under 10M shares</span>
+    </div>
+
+    <!-- GAP SCANNER panel -->
+    <div class="panel active" id="panel-gap">
+      <div class="section-header up">▲ GAPPERS UP <span class="count" id="countUp">0</span></div>
+      <div id="tableUp"></div>
+      <div class="section-header down" style="margin-top:8px">▼ GAPPERS DOWN <span class="count" id="countDown">0</span></div>
+      <div id="tableDown"></div>
+    </div>
+
+    <!-- HOD MOMO panel -->
+    <div class="panel" id="panel-hod-momo">
+      <div class="section-header mom">🔥 SMALL-CAP HOD MOMO ($2–$20, Float &lt;20M) <span class="count" id="countHodSmall">0</span></div>
+      <div id="tableHodSmall"></div>
+      <div class="section-header" style="color:var(--cyan);border-left-color:var(--cyan);margin-top:8px">MID-CAP HOD MOMO ($20–$50, Float 20M–100M) <span class="count" id="countHodMid">0</span></div>
+      <div id="tableHodMid"></div>
+      <div class="section-header" style="color:var(--purple);border-left-color:var(--purple);margin-top:8px">PENNY HOD MOMO (&lt;$2, Float &lt;10M, RelVol &gt;5x) <span class="count" id="countHodPenny">0</span></div>
+      <div id="tableHodPenny"></div>
+    </div>
+
+    <!-- 5-PILLAR panel -->
+    <div class="panel" id="panel-pillar">
+      <div class="section-header" style="color:var(--gold);border-left-color:var(--gold)">
+        ★ ROSS 5-PILLAR SCANNER <span class="count" id="countPillar">0</span>
+        <span style="margin-left:auto;font-size:10px;font-weight:400;color:var(--text-dim)">Gap&gt;4% · Float&lt;20M · $2–$20 · RelVol&gt;2x · News Catalyst</span>
+      </div>
+      <div id="tablePillar"></div>
+    </div>
+
+    <!-- PENNY SUITE panel -->
+    <div class="panel" id="panel-penny">
+      <div class="section-header" style="color:var(--yellow);border-left-color:var(--yellow)">PENNY SUITE — Price &lt;$2.00 <span class="count" id="countPenny">0</span></div>
+      <div id="tablePenny"></div>
+    </div>
+
+    <!-- TOP LISTS panel -->
+    <div class="panel" id="panel-top-lists">
+      <div class="section-header up">▲ TOP GAPPERS (Absolute Gap %) <span class="count" id="countTopGap">0</span></div>
+      <div id="tableTopGap"></div>
+      <div class="section-header mom" style="margin-top:8px">⚡ TOP RVOL (Relative Volume Leaders) <span class="count" id="countTopRvol">0</span></div>
+      <div id="tableTopRvol"></div>
+      <div class="section-header" style="color:var(--cyan);border-left-color:var(--cyan);margin-top:8px">🌙 GAINERS (% Movers) <span class="count" id="countAfterHours">0</span></div>
+      <div id="tableAfterHours"></div>
+    </div>
+
+    <!-- EARNINGS panel -->
+    <div class="panel" id="panel-earnings">
+      <div class="section-header" style="color:var(--orange);border-left-color:var(--orange)">
+        💰 LARGE CAP EARNINGS PLAYS (Price &gt;$50) <span class="count" id="countEarnings">0</span>
+      </div>
+      <div id="tableEarnings"></div>
+    </div>
+
+    <!-- VOLATILITY HUNTER panel -->
+    <div class="panel" id="panel-volatility">
+      <div class="section-header" style="color:var(--red);border-left-color:var(--red)">
+        ⚡ VOLATILITY HUNTER — ATR EXPANSION &gt;50% <span class="count" id="countVol">0</span>
+      </div>
+      <div id="tableVol"></div>
+    </div>
+
+    <!-- MOMENTUM panel -->
+    <div class="panel" id="panel-momentum">
+      <div class="section-header mom">HIGH DAY MOMENTUM <span class="count" id="countMom">0</span></div>
+      <div id="tableMom"></div>
+    </div>
+
+    <!-- REVERSAL panel -->
+    <div class="panel" id="panel-reversal">
+      <div class="section-header rev">REVERSAL ALERTS <span class="count" id="countRev">0</span></div>
+      <div id="tableRev"></div>
+    </div>
+
+    <!-- NEWS panel -->
+    <div class="panel" id="panel-news">
+      <div class="section-header" style="color:var(--cyan);border-left-color:var(--cyan)">
+        NEWS &amp; CATALYSTS <span class="count" id="countNews">0</span>
+      </div>
+      <div id="tableNews"></div>
+    </div>
+
+    <!-- MIKE LARGE CAP panel -->
+    <div class="panel" id="panel-mike">
+      <div class="section-header" style="border-left-color:var(--yellow)">MIKE'S LARGE CAP SCANNER <span class="count" id="mikeTotalCount">0</span></div>
+      <div class="mike-stats-bar" id="mikeStatsBar" style="display:none;padding:4px 8px;font-size:11px;color:var(--dim);border-bottom:1px solid #222;margin-bottom:6px">
+        SPY GAP: <span id="mikeSpyGap" style="color:var(--orange)">—</span>
+        &nbsp;|&nbsp; SCAN TIME: <span id="mikeScanTime">—</span>
+      </div>
+      <div class="section-header" style="font-size:11px;padding:4px 8px;margin:6px 0 2px">LONG BIAS (GAP UP)</div>
+      <div id="mikeLongTable"></div>
+      <div class="section-header" style="font-size:11px;padding:4px 8px;margin:10px 0 2px">SHORT BIAS (GAP DOWN)</div>
+      <div id="mikeShortTable"></div>
+      <div class="section-header" style="font-size:11px;padding:4px 8px;margin:10px 0 2px">VWAP STATUS (TOP 5)</div>
+      <div id="mikeVwapTable"></div>
+    </div>
+
+    <!-- JOURNAL panel -->
+    <div class="panel" id="panel-journal">
+      <div class="journal-hero">
+        <div class="journal-hero-pnl">
+          <div class="journal-hero-label">Today's P&amp;L</div>
+          <div class="journal-hero-amount pnl-zero" id="todayPnlHero">$0.00</div>
+        </div>
+        <div class="journal-hero-stats" id="journalHeroStats">
+          <span class="journal-hero-stat">Trades: <b id="jHeroTrades">0</b></span>
+          <span class="journal-hero-stat">Winners: <b class="pnl-pos" id="jHeroWins">0</b></span>
+          <span class="journal-hero-stat">Losers: <b class="pnl-neg" id="jHeroLoss">0</b></span>
+          <span class="journal-hero-stat">Win Rate: <b id="jHeroWR">—</b></span>
+          <span class="journal-hero-stat">Avg Win: <b class="pnl-pos" id="jHeroAvgW">—</b></span>
+          <span class="journal-hero-stat">Avg Loss: <b class="pnl-neg" id="jHeroAvgL">—</b></span>
+          <span class="journal-hero-stat">P/L Ratio: <b id="jHeroPLR">—</b></span>
+        </div>
+      </div>
+      <div class="import-toolbar">
+        <button class="import-toolbar-btn" id="importFileBtn">[CSV] Import from TOS CSV</button>
+        <button class="import-toolbar-btn" id="importPasteBtn">[TXT] Paste Trade Data</button>
+      </div>
+      <div class="journal-layout">
+        <div>
+          <div class="journal-section" style="margin-bottom:14px">
+            <div class="journal-section-title">LOG TRADE</div>
+            <div class="journal-section-body">
+              <form id="journalForm" autocomplete="off">
+                <div class="jform-grid">
+                  <div class="jform-row">
+                    <div class="jform-label">Ticker</div>
+                    <input id="jTicker" type="text" class="jform-input" list="jTickerList" placeholder="AAPL">
+                    <datalist id="jTickerList"></datalist>
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Direction</div>
+                    <div class="dir-toggle">
+                      <button type="button" id="jDirLong"  class="dir-btn active-long">LONG</button>
+                      <button type="button" id="jDirShort" class="dir-btn">SHORT</button>
+                    </div>
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Entry $</div>
+                    <input id="jEntry" type="number" class="jform-input" step="0.01" placeholder="0.00">
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Exit $</div>
+                    <input id="jExit" type="number" class="jform-input" step="0.01" placeholder="0.00">
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Shares</div>
+                    <input id="jShares" type="number" class="jform-input" placeholder="100">
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Stop $ (opt)</div>
+                    <input id="jStop" type="number" class="jform-input" step="0.01" placeholder="0.00">
+                  </div>
+                  <div class="jform-row">
+                    <div class="jform-label">Setup</div>
+                    <select id="jSetup" class="jform-input">
+                      <option>Gap &amp; Go</option>
+                      <option>First Pullback</option>
+                      <option>ABCD Pattern</option>
+                      <option>Bull Flag</option>
+                      <option>Micro Pullback</option>
+                      <option>Break of VWAP</option>
+                      <option>Dip Trade</option>
+                      <option>Reversal</option>
+                      <option>Red to Green</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="jform-row2">
+                  <input id="jNotes" type="text" class="jform-input jform-notes" placeholder="Notes (optional)">
+                  <div class="jform-source-label" id="jSourceLabel">MANUAL</div>
+                  <button type="submit" class="jform-submit">LOG TRADE</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="journal-section">
+            <div class="journal-section-title">ALL-TIME STATS</div>
+            <div id="journalKeyStats"><div class="empty-state">No trades logged yet.</div></div>
+          </div>
+        </div>
+        <div class="journal-right">
+          <div class="journal-section">
+            <div class="journal-section-title">TODAY'S TRADES</div>
+            <div id="journalTodayTable"><div class="empty-state" style="padding:12px">No trades logged today.</div></div>
+          </div>
+          <div class="analytics-grid">
+            <div class="journal-section">
+              <div class="journal-section-title">DAILY P&amp;L — LAST 30 DAYS</div>
+              <div id="journalPnlChart"><div class="empty-state" style="padding:12px">No trade history yet.</div></div>
+            </div>
+            <div class="journal-section">
+              <div class="journal-section-title">PERFORMANCE BY TIME OF DAY</div>
+              <div id="journalTimeStats"><div class="empty-state" style="padding:12px">No trades yet.</div></div>
+            </div>
+            <div class="journal-section" style="grid-column:1/-1">
+              <div class="journal-section-title">PERFORMANCE BY SETUP TYPE</div>
+              <div id="journalSetupStats"><div class="empty-state" style="padding:12px">No trades yet.</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ENTRY GUIDE panel -->
+    <div class="panel" id="panel-entry-guide">
+      <div id="entryGuideContainer"></div>
+    </div>
+
+    <!-- HISTORY panel -->
+    <div class="panel" id="panel-history">
+      <div class="section-header" style="border-left-color:var(--orange)">SCAN HISTORY <span class="count" id="historyTotalBadge">0</span></div>
+      <div style="display:flex;gap:6px;padding:8px 10px;flex-wrap:wrap;align-items:center;border-bottom:1px solid #1a1a1a;background:#080600">
+        <button class="hist-filter active" data-filt="today" id="histBtnToday">TODAY</button>
+        <button class="hist-filter" data-filt="week"  id="histBtnWeek">THIS WEEK</button>
+        <button class="hist-filter" data-filt="all"   id="histBtnAll">ALL</button>
+        <span style="color:var(--text-dim);margin:0 4px">|</span>
+        <input type="date" id="histFrom" style="background:#0a0a0a;border:1px solid #333;color:#ccc;padding:2px 6px;font-size:11px" />
+        <span style="color:var(--text-dim)">→</span>
+        <input type="date" id="histTo"   style="background:#0a0a0a;border:1px solid #333;color:#ccc;padding:2px 6px;font-size:11px" />
+        <button class="hist-filter" id="histBtnRange">GO</button>
+        <span style="color:var(--text-dim);margin:0 4px">|</span>
+        <input id="histTickerFilter" type="text" placeholder="Ticker..." style="background:#0a0a0a;border:1px solid #333;color:#ccc;padding:2px 8px;font-size:11px;width:80px" />
+        <button class="hist-filter" id="histBtnTicker">SEARCH</button>
+        <span style="flex:1"></span>
+        <a href="/api/history/export" class="hist-filter" style="text-decoration:none;color:var(--green)">EXPORT CSV</a>
+      </div>
+      <div id="historySummary" style="padding:4px 10px;font-size:11px;color:var(--orange);border-bottom:1px solid #1a1a1a;display:none"></div>
+      <div id="historyTableContainer" style="padding:4px"></div>
+    </div>
+
+    <!-- SETTINGS panel -->
+    <div class="panel" id="panel-settings">
+      <div class="settings-layout">
+        <div class="settings-card">
+          <div class="settings-card-title">SCHWAB API INTEGRATION</div>
+          <div class="schwab-status-badge not_configured" id="schwabStatusBadge">⚫ Not Configured</div>
+          <div class="settings-desc">
+            Connect your Schwab brokerage account to auto-sync filled orders to the journal every 60 seconds.<br><br>
+            <ol>
+              <li>Register at <b>developer.schwab.com</b></li>
+              <li>Create an <b>Individual Trader API</b> app</li>
+              <li>Set callback URL to <code>https://127.0.0.1:3000/auth/schwab/callback</code></li>
+              <li>Paste your App Key and Secret below, then click Connect</li>
+            </ol>
+          </div>
+          <div class="settings-row"><div class="settings-label">App Key</div><input class="settings-input" type="text" id="schwabAppKey" placeholder="your-app-key"></div>
+          <div class="settings-row"><div class="settings-label">App Secret</div><input class="settings-input" type="password" id="schwabAppSecret" placeholder="your-app-secret"></div>
+          <div class="settings-row"><div class="settings-label">Account ID</div><input class="settings-input" type="text" id="schwabAccountId" placeholder="12345678"></div>
+          <div class="settings-row"><div class="settings-label">Callback URL</div><input class="settings-input" type="text" id="schwabCallbackUrl" value="https://127.0.0.1:3000/auth/schwab/callback"></div>
+          <div class="settings-btns">
+            <button class="settings-btn primary" id="saveSchwabBtn">SAVE CREDENTIALS</button>
+            <button class="settings-btn" id="schwabConnectBtn">CONNECT ACCOUNT</button>
+            <button class="settings-btn" id="schwabRefreshBtn">REFRESH TOKEN</button>
+            <button class="settings-btn danger" id="schwabDisconnectBtn">DISCONNECT</button>
+          </div>
+          <div class="settings-toggle-row" style="margin-top:14px">
+            <span class="settings-toggle-label">Auto-Sync every 60s</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="schwabAutoSyncToggle">
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div id="schwabSyncResult" style="font-size:10px;color:var(--text-dim);margin-top:8px"></div>
+        </div>
+        <div class="settings-card">
+          <div class="settings-card-title">TOS ALERT LOG WATCHER</div>
+          <div class="settings-desc">
+            Monitor Thinkorswim's alert log file for real-time fill notifications.<br><br>
+            In TOS: <b>Setup → Alerts → Alert Log</b> — enable logging to a file.
+          </div>
+          <div class="settings-row"><div class="settings-label">Alert Log File Path</div><input class="settings-input" type="text" id="tosLogPath" placeholder="C:\Users\YourName\Documents\thinkorswim\alerts.log"></div>
+          <div class="settings-btns">
+            <button class="settings-btn primary" id="saveTosBtn">SAVE &amp; START WATCHER</button>
+            <button class="settings-btn danger" id="stopTosBtn">STOP WATCHER</button>
+          </div>
+          <div class="tos-watcher-status" id="tosWatcherStatus">Not configured</div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.content -->
+
+</div><!-- /.app -->
+
+<!-- ── Position Size Calculator Drawer ──────────────────────── -->
+<div class="calc-overlay" id="calcOverlay"></div>
+<div class="calc-drawer" id="calcDrawer">
+  <div class="calc-header">
+    <div class="calc-header-title">POSITION CALCULATOR</div>
+    <button class="calc-close" id="calcCloseBtn">✕</button>
+  </div>
+  <div class="calc-body" id="calcBody">
+    <div class="calc-section">
+      <div class="calc-section-title">Account Setup</div>
+      <div class="calc-row"><label>Account Size</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcAccountSize" type="number" min="0" placeholder="9000"></div></div>
+      <div class="calc-row"><label>Max Daily Risk</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcMaxDailyRisk" type="number" min="0" placeholder="450"></div></div>
+      <div class="calc-row"><label>Max Risk / Trade</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcMaxRiskTrade" type="number" min="0" placeholder="90"></div></div>
+      <div class="calc-row"><label>Today's P&amp;L</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcTodayPnl" type="number" placeholder="0"></div></div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-section-title">Trade Setup</div>
+      <div class="calc-row"><label>Ticker</label><input id="calcTicker" type="text" list="calcTickerList" class="calc-ticker-input" placeholder="e.g. AAPL"><datalist id="calcTickerList"></datalist></div>
+      <div class="calc-row"><label>Entry Price</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcEntry" type="number" min="0" step="0.01" placeholder="0.00"></div></div>
+      <div class="calc-row"><label>Stop Price</label><div class="calc-input-wrap"><span class="calc-prefix">$</span><input id="calcStop" type="number" min="0" step="0.01" placeholder="0.00"></div></div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-section-title">Position Size</div>
+      <div class="calc-result-row"><span class="calc-result-label">Stop Distance</span><span class="calc-result-val" id="calcStopDist">—</span></div>
+      <div class="calc-result-row calc-result-highlight"><span class="calc-result-label">Max Shares</span><span class="calc-result-val calc-shares" id="calcMaxShares">—</span></div>
+      <div class="calc-result-row"><span class="calc-result-label">Position Value</span><span class="calc-result-val" id="calcPosValue">—</span></div>
+      <div class="calc-result-row"><span class="calc-result-label">Risk Amount</span><span class="calc-result-val calc-risk-val" id="calcRiskAmount">—</span></div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-section-title">Profit Targets</div>
+      <div class="calc-result-row"><span class="calc-result-label">2:1 Target</span><span class="calc-result-val" id="calcPT2">—</span><span class="calc-result-profit" id="calcProfit2"></span></div>
+      <div class="calc-result-row"><span class="calc-result-label">3:1 Target</span><span class="calc-result-val" id="calcPT3">—</span><span class="calc-result-profit" id="calcProfit3"></span></div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-section-title">Risk / Reward (2:1)</div>
+      <div id="rrBarWrap" class="rr-bar-wrap" style="display:none">
+        <div class="rr-bar">
+          <div class="rr-risk" id="rrRisk" style="width:33.3%"><span id="rrRiskLabel">RISK</span></div>
+          <div class="rr-reward" id="rrReward" style="width:66.7%"><span id="rrRewardLabel">REWARD</span></div>
+        </div>
+        <div class="rr-labels"><span id="rrStopLabel">—</span><span>ENTRY</span><span id="rrTargetLabel">—</span></div>
+      </div>
+      <div class="rr-empty" id="rrEmpty">Set entry &amp; stop to see R/R</div>
+    </div>
+    <div class="calc-section">
+      <div class="calc-section-title">Daily Risk Tracker</div>
+      <div class="trades-remaining-bar"><div class="trades-used" id="tradesUsedBar" style="width:0%"></div></div>
+      <div class="trades-remaining-info">
+        <span class="trades-remaining-num" id="tradesRemaining">—</span>
+        <span class="trades-remaining-text">max-risk trades remaining today</span>
+      </div>
+      <div class="trades-pnl-info" id="tradesPnlInfo"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TOS Import Modal ───────────────────────────────────────── -->
+<div class="import-overlay" id="importOverlay">
+  <div class="import-modal" id="importModal">
+    <div class="import-header">
+      <div>
+        <div style="font-size:13px;font-weight:700;color:var(--orange);letter-spacing:1.5px">IMPORT TRADES — TOS ACCOUNT STATEMENT</div>
+        <div style="font-size:10px;color:var(--text-dim);margin-top:3px">Monitor → Activity &amp; Positions → Export to File → AccountStatement.csv</div>
+      </div>
+      <button class="calc-close" id="importCloseBtn">✕</button>
+    </div>
+    <div id="importStep1" class="import-body">
+      <div class="import-tabs">
+        <button class="import-tab active" id="importTabFile">[CSV] File</button>
+        <button class="import-tab"        id="importTabPaste">[TXT] Paste</button>
+      </div>
+      <div id="importFileSection">
+        <div class="import-dropzone" id="importDropzone">
+          <div class="import-dropzone-icon" style="font-size:24px;color:var(--orange);margin-bottom:8px">[CSV]</div>
+          <div class="import-dropzone-label">Drag &amp; drop your AccountStatement.csv here</div>
+          <div class="import-dropzone-sub">or click to browse files</div>
+          <button class="import-file-btn" id="importChooseFileBtn">Choose File</button>
+        </div>
+        <input type="file" id="importFileInput" accept=".csv,.txt" style="display:none">
+      </div>
+      <div id="importPasteSection" style="display:none">
+        <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px">Paste tab-separated or comma-separated trade data from TOS.</div>
+        <textarea class="import-paste-area" id="importPasteArea" placeholder="Exec Time,Spread,Side,Qty,Pos Effect,Symbol,..."></textarea>
+        <button class="import-paste-btn" id="importParsePasteBtn">Parse Data →</button>
+      </div>
+      <div class="import-parse-msg" id="importParseMsg"></div>
+    </div>
+    <div id="importStep2" style="display:none">
+      <div class="import-body" style="padding-bottom:0">
+        <div class="import-preview-header">
+          <div class="import-preview-title" id="importPreviewTitle">0 trades found</div>
+          <div class="import-options">
+            <label class="import-checkbox-row"><input type="checkbox" id="importAutoTag" checked> Auto-tag scanner source</label>
+          </div>
+        </div>
+        <div style="overflow-x:auto;max-height:340px;overflow-y:auto">
+          <table class="import-preview-table">
+            <thead><tr><th>Time (ET)</th><th>Ticker</th><th>Dir</th><th>Entry</th><th>Exit</th><th>Shares</th><th>P&amp;L $</th><th>P&amp;L %</th><th>Source</th></tr></thead>
+            <tbody id="importPreviewBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="import-footer">
+        <span class="import-count-label" id="importCountLabel">—</span>
+        <div class="import-footer-btns">
+          <button class="import-btn-cancel" id="importBackBtn">BACK</button>
+          <button class="import-btn-cancel" id="importCancelBtn">Cancel</button>
+          <button class="import-btn-primary" id="importAllBtn">IMPORT ALL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Pre-Market Checklist Modal ────────────────────────────── -->
+<div class="checklist-overlay" id="checklistOverlay">
+  <div class="checklist-modal" id="checklistModal">
+    <div class="checklist-header">
+      <div>
+        <div style="font-size:13px;font-weight:700;color:var(--orange);letter-spacing:2px">PRE-MARKET CHECKLIST</div>
+        <div style="font-size:10px;color:var(--text-dim);margin-top:2px" id="clDateLabel"></div>
+      </div>
+      <button class="calc-close" id="checklistCloseBtn">✕</button>
+    </div>
+    <div class="checklist-body" id="checklistBody"><!-- populated by JS --></div>
+  </div>
+</div>
+
+<!-- ── News Ticker ───────────────────────────────────────────── -->
+<div class="news-ticker-bar" id="newsTicker">
+  <div class="news-ticker-label">SCARLET TERMINAL</div>
+  <div class="news-ticker-scroll">
+    <div class="news-ticker-inner" id="newsTickerInner">
+      <span class="news-ticker-item">
+        <span class="nt-ticker">LIVE</span>
+        <span class="nt-sep">//</span>
+        <span>Waiting for scanner data...</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
