@@ -39,8 +39,8 @@ document.querySelectorAll<HTMLElement>('.tab').forEach(btn => {
     if (panel === 'history')     { loadHistorySummary(); loadHistoryData('today'); }
     if (panel === 'entry-guide') renderEntryGuide(getEgActiveIdx());
     if (panel === 'mike' && lastData) {
-      reRenderTable('mike-long');
-      reRenderTable('mike-short');
+      reRenderRegistry['mike-long']?.();
+      reRenderRegistry['mike-short']?.();
       $('mikeVwapTable').innerHTML = renderMikeVwapTable(lastData.mikeLargeCaps ?? []);
     }
   });

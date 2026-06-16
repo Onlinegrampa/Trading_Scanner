@@ -566,7 +566,18 @@ export function pushResults(results: ScanResults): void {
 
 export function startWebServer(port: number): void {
   const app = createWebServer();
-  app.listen(port, () => {
+  const server = app.listen(port, () => {
     console.log(`  Web dashboard: http://localhost:${port}`);
+  });
+  server.on('error', (err: NodeJS.ErrnoException) => {
+    if (err.code === 'EADDRINUSE') {
+      console.error(
+        `\n  ERROR: Port ${port} is already in use.\n` +
+        `  Another scanner instance may still be running.\n` +
+        `  Close it first, then restart.\n`,
+      );
+      process.exit(1);
+    }
+    throw err;
   });
 }

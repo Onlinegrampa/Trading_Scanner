@@ -1,1 +1,5807 @@
-[]
+[
+  {
+    "id": "1777592895891-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.91407678244974,
+    "price": 10.85,
+    "volume": 45448881,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592895891-FATN-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.59677419354838,
+    "price": 3.09,
+    "volume": 49860422,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592895891-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 36.140257771038684,
+    "price": 17.9569,
+    "volume": 14304849,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592895891-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592895891-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.28,
+    "volume": 21294252,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592895891-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592895891-PI-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592895891-BAND-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592895891-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592895891-QCML-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.4,
+    "volume": 2858387,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592895891-XRX-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.34,
+    "volume": 60693956,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592895891-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 59.8,
+    "volume": 16686961,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592895891-PACK-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592895891-CANF-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.22,
+    "volume": 27239931,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592895891-JFU-up",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592895891-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592895891-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592895891-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281490,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592895891-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592895891-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 0.98,
+    "volume": 538487,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592895891-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592895891-METU-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.12,
+    "volume": 17304588,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592895891-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8101,
+    "volume": 2521078,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592895891-FBL-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.79,
+    "volume": 6060032,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592895891-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.66,
+    "volume": 2190291,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592895891-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592895891-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592895891-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.14,
+    "volume": 2780439,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592895891-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592895891-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592895891-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 60.15891032917138,
+    "price": 14.11,
+    "volume": 128241,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.34513274336284,
+    "price": 6.29,
+    "volume": 1159207,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 33.56401384083044,
+    "price": 7.72,
+    "volume": 9165765,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592895891-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:48:15.890Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927467-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.91407678244974,
+    "price": 10.99,
+    "volume": 45451001,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592927467-FATN-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.07,
+    "volume": 49861019,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592927467-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 37.90750568612587,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592927467-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592927467-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592927467-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592927468-PI-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592927468-BAND-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592927468-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592927468-QCML-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.4,
+    "volume": 2858387,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592927468-XRX-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.34,
+    "volume": 60702110,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592927468-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.97,
+    "volume": 16691298,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592927468-PACK-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592927468-CANF-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.28,
+    "volume": 27255539,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592927468-JFU-up",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592927468-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592927468-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592927468-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281490,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592927468-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592927468-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 0.98,
+    "volume": 538487,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592927468-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592927468-METU-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.12,
+    "volume": 17304588,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592927468-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592927468-FBL-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.79,
+    "volume": 6060032,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592927468-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.66,
+    "volume": 2190291,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592927468-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592927468-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592927468-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.14,
+    "volume": 2780439,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592927468-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592927468-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592927468-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 60.15891032917138,
+    "price": 14.11,
+    "volume": 128241,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -43.982300884955755,
+    "price": 6.289,
+    "volume": 1159654,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.015570934256054,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592927468-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:48:47.466Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.36563071297992,
+    "price": 10.99,
+    "volume": 45451001,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592928121-FATN-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.07,
+    "volume": 49861019,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592928121-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 37.90750568612587,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592928121-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592928121-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592928121-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592928121-PI-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592928121-BAND-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592928121-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592928121-QCML-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.4,
+    "volume": 2858387,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592928121-XRX-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.34,
+    "volume": 60702110,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592928121-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.97,
+    "volume": 16691298,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592928121-PACK-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592928121-CANF-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.28,
+    "volume": 27255539,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592928121-JFU-up",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592928121-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592928121-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592928121-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281490,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592928121-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592928121-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 0.98,
+    "volume": 538487,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592928121-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592928121-METU-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.12,
+    "volume": 17304588,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592928121-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592928121-FBL-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.79,
+    "volume": 6060032,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592928121-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.66,
+    "volume": 2190291,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592928121-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592928121-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592928121-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.14,
+    "volume": 2780439,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592928121-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592928121-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592928121-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.11,
+    "volume": 128241,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -43.99646017699116,
+    "price": 6.289,
+    "volume": 1159654,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.015570934256054,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592928121-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:48:48.120Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.36563071297992,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592957998-FATN-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49862290,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592957998-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 37.90750568612587,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592957998-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592957998-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592957998-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592957998-PI-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592957998-BAND-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592957998-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592957998-QCML-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592957998-XRX-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.335,
+    "volume": 60703020,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592957998-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.8,
+    "volume": 16693338,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592957998-PACK-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592957998-CANF-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27259071,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592957998-JFU-up",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592957998-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592957998-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592957998-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592957998-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592957998-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592957998-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592957998-METU-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1,
+    "volume": 17305217,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592957998-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592957998-FBL-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592957998-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592957998-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592957998-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592957998-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.09,
+    "volume": 2781084,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592957998-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592957998-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592957998-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.32,
+    "volume": 1160496,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.015570934256054,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592957998-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:49:17.997Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.36563071297992,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592959799-FATN-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49862290,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592959799-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 37.90750568612587,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592959799-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592959799-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592959799-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592959799-PI-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592959799-BAND-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592959799-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592959799-QCML-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592959799-XRX-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.335,
+    "volume": 60703020,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592959799-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.8,
+    "volume": 16693338,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592959799-PACK-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592959799-CANF-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27259071,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592959799-JFU-up",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592959799-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592959799-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592959799-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592959799-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592959799-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592959799-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592959799-METU-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1,
+    "volume": 17305217,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592959799-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592959799-FBL-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592959799-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592959799-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592959799-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592959799-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.09,
+    "volume": 2781084,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592959799-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592959799-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592959799-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.32,
+    "volume": 1160496,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959799-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.015570934256054,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959800-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959800-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959800-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592959800-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:49:19.798Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.36563071297992,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592988176-FATN-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49862290,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592988176-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 36.08794541319181,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592988176-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592988176-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592988176-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592988176-PI-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592988176-BAND-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592988176-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592988176-QCML-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592988176-XRX-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.335,
+    "volume": 60703020,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592988176-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.8,
+    "volume": 16693338,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592988176-PACK-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592988176-CANF-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27259071,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592988176-JFU-up",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592988176-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592988176-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592988176-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592988176-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592988176-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592988176-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592988176-METU-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1,
+    "volume": 17305217,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592988176-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592988176-FBL-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592988176-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592988176-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592988176-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592988176-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.09,
+    "volume": 2781084,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592988176-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592988176-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592988176-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.32,
+    "volume": 1160496,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.05017301038062,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592988176-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:49:48.175Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.36563071297992,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777592989921-FATN-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49862290,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592989921-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 36.08794541319181,
+    "price": 18.19,
+    "volume": 14305263,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777592989921-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777592989921-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.27,
+    "volume": 21294447,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777592989921-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777592989921-PI-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777592989921-BAND-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777592989921-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777592989921-QCML-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777592989921-XRX-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.335,
+    "volume": 60703020,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777592989921-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 58.8,
+    "volume": 16693338,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777592989921-PACK-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777592989921-CANF-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27259071,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777592989921-JFU-up",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777592989921-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777592989921-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777592989921-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777592989921-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777592989921-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777592989921-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777592989921-METU-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1,
+    "volume": 17305217,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777592989921-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777592989921-FBL-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777592989921-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777592989921-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777592989921-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777592989921-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.09,
+    "volume": 2781084,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777592989921-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777592989921-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777592989921-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.32,
+    "volume": 1160496,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 34.05017301038062,
+    "price": 7.7461,
+    "volume": 9165985,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777592989921-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:49:49.919Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.54844606946986,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777593019776-FATN-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49865662,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777593019776-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 36.08794541319181,
+    "price": 17.95,
+    "volume": 14305462,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777593019776-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777593019776-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.28,
+    "volume": 21295788,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777593019776-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777593019776-PI-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777593019776-BAND-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777593019776-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777593019776-QCML-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777593019776-XRX-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.34,
+    "volume": 60705441,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777593019776-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 59,
+    "volume": 16696042,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777593019776-PACK-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777593019776-CANF-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27260160,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777593019776-JFU-up",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777593019776-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777593019776-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777593019776-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777593019776-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777593019776-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777593019776-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777593019776-METU-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1018,
+    "volume": 17306251,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777593019776-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777593019776-FBL-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777593019776-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777593019776-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777593019776-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777593019776-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.08,
+    "volume": 2781214,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777593019776-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777593019776-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777593019776-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.3,
+    "volume": 1160632,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 33.970588235294116,
+    "price": 7.7435,
+    "volume": 9167184,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593019776-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:50:19.775Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-HCAI-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "HCAI",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 102.37659963436928,
+    "changePercent": 100.54844606946986,
+    "price": 10.96,
+    "volume": 45455763,
+    "float": 629167,
+    "qualityScore": 90,
+    "rank": 1
+  },
+  {
+    "id": "1777593020778-FATN-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "FATN",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 40.12096774193549,
+    "changePercent": 24.19354838709678,
+    "price": 3.08,
+    "volume": 49865662,
+    "float": 13924468,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777593020778-MRAM-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "MRAM",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 36.92191053828658,
+    "changePercent": 36.08794541319181,
+    "price": 17.95,
+    "volume": 14305462,
+    "float": 23294478,
+    "qualityScore": 82,
+    "rank": 3
+  },
+  {
+    "id": "1777593020778-ABTS-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "ABTS",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 32.43243243243242,
+    "changePercent": null,
+    "price": 1.29,
+    "volume": 20963852,
+    "float": 2369995,
+    "qualityScore": 82,
+    "rank": 4
+  },
+  {
+    "id": "1777593020778-VIAV-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "VIAV",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 31.759279595870854,
+    "changePercent": null,
+    "price": 52.28,
+    "volume": 21295788,
+    "float": 231389345,
+    "qualityScore": 57,
+    "rank": 5
+  },
+  {
+    "id": "1777593020778-TTMI-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "TTMI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.97454545454546,
+    "changePercent": null,
+    "price": 157,
+    "volume": 5861292,
+    "float": 103843183,
+    "qualityScore": 52,
+    "rank": 6
+  },
+  {
+    "id": "1777593020778-PI-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "PI",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 29.1236254581806,
+    "changePercent": null,
+    "price": 144,
+    "volume": 1602754,
+    "float": 30459059,
+    "qualityScore": 62,
+    "rank": 7
+  },
+  {
+    "id": "1777593020778-BAND-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "BAND",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 27.913223140495862,
+    "changePercent": null,
+    "price": 37.16,
+    "volume": 4156074,
+    "float": 30056655,
+    "qualityScore": 67,
+    "rank": 8
+  },
+  {
+    "id": "1777593020778-QCMU-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "QCMU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.754527162977876,
+    "changePercent": null,
+    "price": 26.011,
+    "volume": 901396,
+    "float": 325001,
+    "qualityScore": 71,
+    "rank": 9
+  },
+  {
+    "id": "1777593020778-QCML-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "QCML",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 25.590796019900512,
+    "changePercent": null,
+    "price": 21.41,
+    "volume": 2858700,
+    "float": 950001,
+    "qualityScore": 75,
+    "rank": 10
+  },
+  {
+    "id": "1777593020778-XRX-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "XRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 24.20382165605095,
+    "changePercent": null,
+    "price": 2.34,
+    "volume": 60705441,
+    "float": 130776160,
+    "qualityScore": 68,
+    "rank": 11
+  },
+  {
+    "id": "1777593020778-AKAN-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "AKAN",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 23.5090419392074,
+    "changePercent": null,
+    "price": 59,
+    "volume": 16696042,
+    "float": 534418,
+    "qualityScore": 79,
+    "rank": 12
+  },
+  {
+    "id": "1777593020778-PACK-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "PACK",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.84263959390863,
+    "changePercent": 29.187817258883246,
+    "price": 5.2787,
+    "volume": 2870524,
+    "float": 85529338,
+    "qualityScore": 65,
+    "rank": 13
+  },
+  {
+    "id": "1777593020778-CANF-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "CANF",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 22.073578595317713,
+    "changePercent": null,
+    "price": 3.29,
+    "volume": 27260160,
+    "float": 2142547,
+    "qualityScore": 82,
+    "rank": 14
+  },
+  {
+    "id": "1777593020778-JFU-up",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "JFU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": 21.81528662420382,
+    "changePercent": null,
+    "price": 3.69,
+    "volume": 16568,
+    "float": 8715213,
+    "qualityScore": 61,
+    "rank": 15
+  },
+  {
+    "id": "1777593020778-RDAC-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "RDAC",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -44.85616772306192,
+    "changePercent": null,
+    "price": 10.84,
+    "volume": 1200215,
+    "float": 5951030,
+    "qualityScore": 68,
+    "rank": 1
+  },
+  {
+    "id": "1777593020778-ENVB-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "ENVB",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -35.46511627906977,
+    "changePercent": null,
+    "price": 3.79,
+    "volume": 2960713,
+    "float": 1985535,
+    "qualityScore": 75,
+    "rank": 2
+  },
+  {
+    "id": "1777593020778-OPCH-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "OPCH",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -26.43096390026051,
+    "changePercent": null,
+    "price": 20.3,
+    "volume": 17281705,
+    "float": 156985610,
+    "qualityScore": 45,
+    "rank": 3
+  },
+  {
+    "id": "1777593020778-AWRE-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "AWRE",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.547945205479458,
+    "changePercent": null,
+    "price": 1.18,
+    "volume": 231077,
+    "float": 21601752,
+    "qualityScore": 50,
+    "rank": 4
+  },
+  {
+    "id": "1777593020778-KNRX-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "KNRX",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -20.377192982456137,
+    "changePercent": null,
+    "price": 1.05,
+    "volume": 541167,
+    "float": 30423113,
+    "qualityScore": 51,
+    "rank": 5
+  },
+  {
+    "id": "1777593020778-PUMP-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "PUMP",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -17.14285714285714,
+    "changePercent": null,
+    "price": 17,
+    "volume": 5508208,
+    "float": 122616976,
+    "qualityScore": 57,
+    "rank": 6
+  },
+  {
+    "id": "1777593020778-METU-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "METU",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.42535584243628,
+    "changePercent": null,
+    "price": 25.1018,
+    "volume": 17306251,
+    "float": 14250001,
+    "qualityScore": 45,
+    "rank": 7
+  },
+  {
+    "id": "1777593020778-GCTK-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "GCTK",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.270989464537847,
+    "changePercent": null,
+    "price": 0.8103,
+    "volume": 2521996,
+    "float": 1944279,
+    "qualityScore": 60,
+    "rank": 8
+  },
+  {
+    "id": "1777593020778-FBL-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "FBL",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -15.26298806066472,
+    "changePercent": null,
+    "price": 25.76,
+    "volume": 6060504,
+    "float": 6820005,
+    "qualityScore": 53,
+    "rank": 9
+  },
+  {
+    "id": "1777593020778-SAGT-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "SAGT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.746543778801838,
+    "changePercent": null,
+    "price": 1.65,
+    "volume": 2190727,
+    "float": 12750000,
+    "qualityScore": 50,
+    "rank": 10
+  },
+  {
+    "id": "1777593020778-HIPO-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "HIPO",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.422395464209782,
+    "changePercent": null,
+    "price": 26.33,
+    "volume": 276741,
+    "float": 26031227,
+    "qualityScore": 40,
+    "rank": 11
+  },
+  {
+    "id": "1777593020778-MOBBW-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "MOBBW",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -14.399999999999997,
+    "changePercent": null,
+    "price": 2.1,
+    "volume": 22376,
+    "float": 1326676693,
+    "qualityScore": 43,
+    "rank": 12
+  },
+  {
+    "id": "1777593020778-CTNT-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "CTNT",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -13.635014836795259,
+    "changePercent": null,
+    "price": 3.08,
+    "volume": 2781214,
+    "float": 1959342,
+    "qualityScore": 75,
+    "rank": 13
+  },
+  {
+    "id": "1777593020778-KLAG-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "KLAG",
+    "scanners": [
+      "Gap Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.921759794267484,
+    "changePercent": null,
+    "price": 28.5,
+    "volume": 86643,
+    "float": 160000,
+    "qualityScore": 45,
+    "rank": 14
+  },
+  {
+    "id": "1777593020778-CLMB-down",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "CLMB",
+    "scanners": [
+      "Gap Scanner",
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": -12.364833098260457,
+    "changePercent": -21.720733427362486,
+    "price": 16.65,
+    "volume": 975138,
+    "float": 4605692,
+    "qualityScore": 63,
+    "rank": 15
+  },
+  {
+    "id": "1777593020778-AIOS-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "AIOS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 65.49375709421112,
+    "price": 14.58,
+    "volume": 128737,
+    "float": 3239918,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-RYOJ-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "RYOJ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 46.469298245614056,
+    "price": 3.3395,
+    "volume": 183862,
+    "float": 11550000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-RBLU-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "RBLU",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -44.247787610619476,
+    "price": 6.3,
+    "volume": 1160632,
+    "float": 660000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-RDZN-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "RDZN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 36.62790697674419,
+    "price": 2.35,
+    "volume": 1717452,
+    "float": 79695672,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-BAFN-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "BAFN",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "DOWN",
+    "gapPercent": null,
+    "changePercent": -36.5,
+    "price": 5.08,
+    "volume": 245103,
+    "float": 4108072,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-SKLZ-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "SKLZ",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 33.970588235294116,
+    "price": 7.7435,
+    "volume": 9167184,
+    "float": 12170492,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-LACG-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "LACG",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 31.133631864246997,
+    "price": 13.91,
+    "volume": 144172,
+    "float": 100000,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-WNW-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "WNW",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.670926517571885,
+    "price": 4.09,
+    "volume": 8852840,
+    "float": 1330426,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-NCEL-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "NCEL",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 30.116959064327492,
+    "price": 4.45,
+    "volume": 180020,
+    "float": 5049285,
+    "qualityScore": null,
+    "rank": null
+  },
+  {
+    "id": "1777593020778-WKHS-momo",
+    "scanTimestamp": "2026-04-30T23:50:20.776Z",
+    "ticker": "WKHS",
+    "scanners": [
+      "Momentum Scanner"
+    ],
+    "direction": "UP",
+    "gapPercent": null,
+    "changePercent": 24.358974358974372,
+    "price": 2.91,
+    "volume": 1379090,
+    "float": 10449858,
+    "qualityScore": null,
+    "rank": null
+  }
+]
